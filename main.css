@@ -1,2 +1,91 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: bisque;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sell {
+   background-color: white;
+   width: 700px;
+   height: 525px;
+   border-radius: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.perfume img{
+    width: 350px;
+    height: 525px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.desc-perfume {
+    padding: 20px;
+
+}
+
+.category-product {
+    font-family :'Gill Sans';
+    color: grey;
+    padding: 20px 0 30px 20px ;
+}
+
+.name-product {
+    font-family: serif;
+    font-size: 50px;
+}
+
+.description {
+    color: grey;
+    padding: 20px 0 10px 5px;
+    font-size: 20px;
+}
+
+.price {
+    display: flex;
+}
+
+.price-now {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(14, 122, 7);
+}
+
+.wrong-price {
+    position: relative;
+    top: 20px;
+    padding-left: 20px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.chart {
+    background-color: rgb(14, 122, 7);
+    padding: 17px;
+    margin: 13px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.chart button {
+    background: none;
+    border: none;
+    color: inherit;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
